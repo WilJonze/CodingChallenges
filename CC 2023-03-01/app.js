@@ -17,4 +17,4 @@ var isPalindrome = function(x) {
     let pali = x.toString()
     return pali == pali.split('').reverse().join('');
       
-  };
+  };                                                                                                                        
