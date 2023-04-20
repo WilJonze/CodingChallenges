@@ -46,3 +46,6 @@ for (let i = 0; i < numRows; i++) {
 
 return result;
 }
+
+
+42.5
