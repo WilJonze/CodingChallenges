@@ -79,4 +79,3 @@ function logThanks(thanks) {
 
 sayThanks(name, logThanks);
 
-
