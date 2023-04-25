@@ -13,7 +13,6 @@ class Contact {
                                     // and becomes locally scoped and only accessible to the
                                     // within the function of the constructor. 
 
-            var ext = extension
     }
     
 
@@ -24,16 +23,9 @@ class Contact {
         getPhone(phone) {
             return phoneNumber;
     }
-
-        getExtension(extension) {
-            return ext
-        }
-
-    
 }
 
-const myContact = new Contact("John Smith", 555-1234, 404);
+const myContact = new Contact("John Smith", 555-1234);
 
 console.log(myContact.getName()); //This will log out the name property
-console.log(myContact.getExtension());
 console.log(myContact.getPhone()); //This will return undefined
